@@ -1,0 +1,27 @@
+# ninja log v5
+0	433	1714463637756389658	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/Util.cpp.o	bfc2dc5a1e5f5c32
+1450	1520	1714245718996132235	GlassPlaneEstimation	1320792a9cf3c0e4
+0	17	1714463793196179560	build.ninja	caf8d084ed8bfa3a
+623	677	1714463638000402656	GlassPlaneDetectionAndLocalization	c32070fef2409433
+0	623	1714463637944399672	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/main.cpp.o	5a5cc01bb1766f77
+0	354	1714463990636947493	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/GPDL.cpp.o	47156065dae6758d
+0	608	1714463990888958050	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/main.cpp.o	5a5cc01bb1766f77
+608	664	1714463990944960395	GlassPlaneDetectionAndLocalization	5973f99f5b55ea85
+0	391	1714464816738783703	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/GPDL.cpp.o	47156065dae6758d
+0	599	1714464816946790508	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/main.cpp.o	5a5cc01bb1766f77
+599	655	1714464817002792341	GlassPlaneDetectionAndLocalization	5973f99f5b55ea85
+1	407	1714465463315300562	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/GPDL.cpp.o	47156065dae6758d
+1	594	1714465463503306406	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/main.cpp.o	5a5cc01bb1766f77
+594	649	1714465463559308146	GlassPlaneDetectionAndLocalization	5973f99f5b55ea85
+0	502	1714467925322366022	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/GPDL.cpp.o	47156065dae6758d
+0	550	1714467925370368321	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/main.cpp.o	5a5cc01bb1766f77
+550	610	1714467925426371004	GlassPlaneDetectionAndLocalization	5973f99f5b55ea85
+0	542	1714467986629273649	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/main.cpp.o	5a5cc01bb1766f77
+542	601	1714467986689276467	GlassPlaneDetectionAndLocalization	5973f99f5b55ea85
+1	554	1714468012646490632	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/main.cpp.o	5a5cc01bb1766f77
+554	613	1714468012706493428	GlassPlaneDetectionAndLocalization	5973f99f5b55ea85
+0	524	1714468187098430215	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/main.cpp.o	5a5cc01bb1766f77
+524	581	1714468187154432709	GlassPlaneDetectionAndLocalization	5973f99f5b55ea85
+1	519	1714468671307137920	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/main.cpp.o	5a5cc01bb1766f77
+0	533	1714468896324384266	CMakeFiles/GlassPlaneDetectionAndLocalization.dir/GPDL.cpp.o	47156065dae6758d
+533	587	1714468896408387691	GlassPlaneDetectionAndLocalization	5973f99f5b55ea85
