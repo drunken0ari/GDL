@@ -2,9 +2,9 @@
 // Created by hanta on 24. 4. 30.
 //
 
-#include "GPDL.h"
+#include "GDL.h"
 
-void GPDL::SeparateBinaryImageSegments(Mat imgSeg, Mat& separatedSeg)
+void GDL::SeparateBinaryImageSegments(Mat imgSeg, Mat& separatedSeg)
 {
     int numOfSeg;
     numOfSeg = 128;
@@ -45,7 +45,7 @@ void GPDL::SeparateBinaryImageSegments(Mat imgSeg, Mat& separatedSeg)
     }
 }
 
-void GPDL::MakeEdgeImage(Mat imgSeg, Mat separatedSeg, Mat& imgEdge)
+void GDL::MakeEdgeImage(Mat imgSeg, Mat separatedSeg, Mat& imgEdge)
 {
     for (int row = 0; row < imgSeg.rows; row++) {
         for (int col = 0; col < imgSeg.cols; col++) {
@@ -79,7 +79,7 @@ void GPDL::MakeEdgeImage(Mat imgSeg, Mat separatedSeg, Mat& imgEdge)
     }
 }
 
-void GPDL::ExtractCandidatesDepthAware(Mat imgDepth, Mat imgEdge, Mat& imgEdgeCddt, double distThreshold, int windowSize)
+void GDL::ExtractCandidatesDepthAware(Mat imgDepth, Mat imgEdge, Mat& imgEdgeCddt, double distThreshold, int windowSize)
 {
     for (int row = 0; row < imgDepth.rows; row++) {
         for (int col = 0; col < imgDepth.cols; col++) {
@@ -123,7 +123,7 @@ void GPDL::ExtractCandidatesDepthAware(Mat imgDepth, Mat imgEdge, Mat& imgEdgeCd
     }
 }
 
-bool GPDL::EstimatePlaneBySegment(const int windowSize, Mat imgEdgeCddt, int segmentNum, Mat imgDepth
+bool GDL::EstimatePlaneBySegment(const int windowSize, Mat imgEdgeCddt, int segmentNum, Mat imgDepth
                                   , vector<Point3d>* glassEdges, vector<bool>* isInlier
                                   , const Mat intrinsic, const Mat distortion, int numOfRp
                                   , double inlierThreshold, double dstInlierRate1, double dstInlierRate2, int maxIter

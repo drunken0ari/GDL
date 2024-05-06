@@ -2,12 +2,12 @@
 // Created by hanta on 24. 4. 30.
 //
 
-#ifndef GLASSPLANEDETECTIONANDLOCALIZATION_GPDL_H
-#define GLASSPLANEDETECTIONANDLOCALIZATION_GPDL_H
+#ifndef GLASSPLANEDETECTIONANDLOCALIZATION_GDL_H
+#define GLASSPLANEDETECTIONANDLOCALIZATION_GDL_H
 
 #include "Util.h"
 
-class GPDL {
+class GDL {
 public:
     static void SeparateBinaryImageSegments(Mat imgSeg, Mat& separatedSeg);
     static void MakeEdgeImage(Mat imgSeg, Mat separatedSeg, Mat& imgEdge);
@@ -20,4 +20,4 @@ public:
 };
 
 
-#endif //GLASSPLANEDETECTIONANDLOCALIZATION_GPDL_H
+#endif //GLASSPLANEDETECTIONANDLOCALIZATION_GDL_H
